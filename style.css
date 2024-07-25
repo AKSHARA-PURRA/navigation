@@ -1,0 +1,87 @@
+
+        #map {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+            width: 75%;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #input-panel {
+            height: 30px;
+            padding: 10px;
+            background: white;
+        }
+
+        #input-panel>button {
+            border-radius: 12px;
+            background-color: #5bc0de;
+            color: white;
+            border: 2px;
+            padding: 3.5px 6px;
+        }
+
+        .heading {
+            top: 20px;
+            position: relative;
+            display: grid;
+            grid-template-columns: 20vw 25vw;
+            font-size: 1.2em;
+            grid-template-rows: 7vh 30vh;
+
+        }
+
+        .h {
+            margin: auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #5bc0de;
+            font-style: italic;
+        }
+       .com{
+        grid-row: 1 / 2;
+    grid-column: 2 / 3;
+       }
+        .h p {
+            bottom: 15px;
+            position: relative;
+            font-weight: 1;
+            font-size: 0.8rem;
+        }
+
+        .m-d {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            width: 70vw;
+            height: 700px;
+            align-items: center;
+        }
+        #image-container{
+            
+            height: auto;
+            width: auto;
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+        .info{
+
+            grid-row:2/3;
+            grid-column: 2/3;
+        }
+        .item1{
+            grid-row: 1 / 2;
+    grid-column: 1 / 2;
+        }
+ 
